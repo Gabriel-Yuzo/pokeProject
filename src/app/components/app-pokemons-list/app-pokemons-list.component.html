@@ -1,0 +1,10 @@
+<div class="list-class">
+    <p>Numero total de pokemons: {{pokemons.count}}</p>
+    <ul>
+        <h2>Nome a seguir:</h2>
+        <li *ngFor="let pokemon of pokemons.results">  
+            <p> {{pokemon.name}}</p>
+        </li>
+    </ul>
+
+</div>
